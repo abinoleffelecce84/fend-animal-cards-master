@@ -1,0 +1,110 @@
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background: linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
+    linear-gradient(
+      45deg,
+      #92baac 45px,
+      transparent 45px,
+      transparent 91px,
+      #e1ebbd 91px,
+      #e1ebbd 135px,
+      transparent 135px
+    ),
+    linear-gradient(
+      -45deg,
+      #92baac 23px,
+      transparent 23px,
+      transparent 68px,
+      #92baac 68px,
+      #92baac 113px,
+      transparent 113px,
+      transparent 158px,
+      #92baac 158px
+    );
+  background-color: #e1ebbd;
+  background-size: 128px 128px;
+}
+
+@-webkit-keyframes bg-color {
+  0% {
+    color: #e74c3c;
+  }
+  60% {
+    color: #3498db;
+  }
+  100% {
+    color: #e74c3c;
+  }
+}
+
+@keyframes bg-color {
+  0% {
+    color: #e74c3c;
+  }
+  60% {
+    color: #3498db;
+  }
+  100% {
+    color: #e74c3c;
+  }
+}
+
+.general-content {
+  background-color: #91baac;
+  color: #9e0202;
+  -webkit-box-shadow: 10px 10px 24px rgba(0, 0, 0, 0.4);
+  width: 350px;
+  height: 580px;
+  border: 1px solid #e1ebbd;
+  position: relative;
+  left: 35%;
+  top: 22px;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: "Nosifer", cursive;
+  width: 320px;
+  position: relative;
+  left: 14px;
+  bottom: 10px;
+  animation: bg-color 50s infinite;
+  -webkit-animation: bg-color 50s infinite;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+  position: relative;
+  left: 24px;
+  bottom: 18px;
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.5);
+}
+
+.un-list {
+  position: relative;
+  right: 25px;
+  list-style-type: none;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.content {
+  font-family: calibri;
+  border: 1px solid #e1ebbd;
+  width: 298px;
+  height: 275px;
+  position: relative;
+  left: 24px;
+  bottom: 5px;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 280px;
+}
