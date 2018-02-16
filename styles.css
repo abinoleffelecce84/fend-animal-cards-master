@@ -1,5 +1,6 @@
 body {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  /* thanks to http://lea.verou.me/css3patterns/#arrows for background */
   background: linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,
     linear-gradient(
       45deg,
