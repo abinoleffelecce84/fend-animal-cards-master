@@ -91,6 +91,7 @@ body {
   position: relative;
   right: 25px;
   list-style-type: none;
+  text-align: left;
 }
 
 .label {
@@ -114,13 +115,6 @@ body {
   text-align: justify;
   text-justify: inter-word;
   width: 280px;
-}
-
-p{
   position: relative;
   left: 9px;
-}
-
-ul{
-  text-align: left;
 }
